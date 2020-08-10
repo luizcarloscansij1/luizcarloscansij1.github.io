@@ -1,0 +1,171 @@
+html, body {
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo{
+    width: 46px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #daa520;
+}
+
+li{
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+
+li:hover{
+    background-color: rgb(185, 176, 176);
+}
+
+#imagem_fundo {
+    background: url("gavel-3577254_1920\ \(1\).jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    text-align: center;
+
+
+}
+#titulo {
+    color:rgb(255, 254, 254);
+    padding-top: 10%;
+    font-size: 50px;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right:20%;
+    text-shadow: 1px 1px 2px black, -1px 1px 3px rgb(107, 106, 106), 1px -1px 3px grey, -1px -1px 3px rgb(107, 106, 106);
+
+}
+
+#subtitulo{
+    color: white;
+    font-size: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 50px;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+#acao{
+    border: 3px black solid;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: black ;
+    border-radius: 10px;
+}
+
+.Icone{
+    width: 150px;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    text-align: center;
+}
+ .dois{
+    width: 40%;
+ }
+
+.quatro{
+    width: 15%;
+}
+
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+
+.espaco{
+    padding-bottom: 20px;
+}
+
+.espacomenu{
+    padding-top: 5%;
+}
+
+section{
+    padding: 20px;
+    float: left;
+}
+
+.destaque{
+    background-color: rgb(206, 206, 206);
+}
+
+.imgeco{
+    width: 100%;
+    height: relative;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    float: left;
+    width: 100%;
+    color: white;
+}
+@media all and (max-width: 768px){
+    #menu{
+        visibility: hidden;
+    }
+
+    .coluna, .dois, .tres, .quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+        text-align: center;
+    }
+
+    #logodiv{
+        position: relative;
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    #logo{
+        transform: translateX(-50%);
+    }
+
+    #imagem_fundo{
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #titulo{
+        padding-top: 25%;
+    }
+}
